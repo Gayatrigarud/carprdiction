@@ -3,7 +3,7 @@ import pandas as pd
 import joblib
 
 # Load trained model
-model = jobli.("carpredict_model.pkl")
+model = joblib.("carpredict_model.pkl")
 
 # Load encoders
 encoders = joblib.load("encoders.pkl")
